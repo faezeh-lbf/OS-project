@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Tue, 05 Dec 2017 22:43:48 +0330
+Source: linux-4.15.0-rc1-custom
+Binary: linux-image-4.15.0-rc1-custom linux-headers-4.15.0-rc1-custom linux-libc-dev linux-image-4.15.0-rc1-custom-dbg
+Architecture: source amd64
+Version: 4.15.0-rc1-custom-2
+Distribution: xenial
+Urgency: low
+Maintainer: Anonymous <root@flabbaf-pc>
+Changed-By: Anonymous <root@flabbaf-pc>
+Description:
+ linux-headers-4.15.0-rc1-custom - Linux kernel headers for 4.15.0-rc1-custom on ${kernel:debarch}
+ linux-image-4.15.0-rc1-custom - Linux kernel, version 4.15.0-rc1-custom
+ linux-image-4.15.0-rc1-custom-dbg - Linux kernel debugging symbols for 4.15.0-rc1-custom
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-4.15.0-rc1-custom (4.15.0-rc1-custom-2) xenial; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ 881468388e6391da75aaccc78bd062195cd00134 1273 linux-4.15.0-rc1-custom_4.15.0-rc1-custom-2.dsc
+ 4b71e1e6115af5fcedd8cde8fe6c8654e5446366 163849457 linux-4.15.0-rc1-custom_4.15.0-rc1-custom.orig.tar.gz
+ 0887136435ec8def4fd9aa24cec9900f5b985f51 1297 linux-4.15.0-rc1-custom_4.15.0-rc1-custom-2.debian.tar.gz
+ be03c46f4f7e42cd629a46d68687c0b1b1b8ed28 11259664 linux-headers-4.15.0-rc1-custom_4.15.0-rc1-custom-2_amd64.deb
+ fc9afe0b17233ada29b564074d59e1cdc7213f08 512406070 linux-image-4.15.0-rc1-custom-dbg_4.15.0-rc1-custom-2_amd64.deb
+ 8aeac14ec58d24b9d8e3e7691ddbaf6e51877fef 50919356 linux-image-4.15.0-rc1-custom_4.15.0-rc1-custom-2_amd64.deb
+ f2b95e7d65ec83871672ad9a50d149018506c263 969536 linux-libc-dev_4.15.0-rc1-custom-2_amd64.deb
+Checksums-Sha256:
+ cc748695990cb942c7a4f4ecf56bdc3c8dc5d3372c00e3e523d83d0616c4377e 1273 linux-4.15.0-rc1-custom_4.15.0-rc1-custom-2.dsc
+ 8fadaa1a75c6f50d327de79b8d69c16a9e2255f4f5947b09ad4987b07fc1e0b3 163849457 linux-4.15.0-rc1-custom_4.15.0-rc1-custom.orig.tar.gz
+ 633e103873604d95e84d2bb6ecd695895a34d95f7c97dbc82e36bbf0afa88b3e 1297 linux-4.15.0-rc1-custom_4.15.0-rc1-custom-2.debian.tar.gz
+ fdb959a3fd79f9158ebde1205dd270ba3bca5c34594c845b4f5a605f2b7f4340 11259664 linux-headers-4.15.0-rc1-custom_4.15.0-rc1-custom-2_amd64.deb
+ 24890301ed7e4601872f1f2cb1efb58bc6e9e207a307efc0b59af06bd2eb64d5 512406070 linux-image-4.15.0-rc1-custom-dbg_4.15.0-rc1-custom-2_amd64.deb
+ 994b5e0b6d91624d61d7b894b313680e01a87918bbd3ed84896e696051588413 50919356 linux-image-4.15.0-rc1-custom_4.15.0-rc1-custom-2_amd64.deb
+ a3bff89cd43718a47d20a038923e95ef0235d57d895d331cc67f4abe7567e1e9 969536 linux-libc-dev_4.15.0-rc1-custom-2_amd64.deb
+Files:
+ 68ee92e5b8d25933bd42f513d620e572 1273 kernel optional linux-4.15.0-rc1-custom_4.15.0-rc1-custom-2.dsc
+ 18289d92f171e6634a0bb5986528a41d 163849457 kernel optional linux-4.15.0-rc1-custom_4.15.0-rc1-custom.orig.tar.gz
+ 4119378ed8810247376dbea83633ed1a 1297 kernel optional linux-4.15.0-rc1-custom_4.15.0-rc1-custom-2.debian.tar.gz
+ bf880f7013c6a01299813e08a9194405 11259664 kernel optional linux-headers-4.15.0-rc1-custom_4.15.0-rc1-custom-2_amd64.deb
+ 2d7d4a1973db2945ac33534feef317a0 512406070 debug optional linux-image-4.15.0-rc1-custom-dbg_4.15.0-rc1-custom-2_amd64.deb
+ 0f426c210b6fe5382d8fe68cf843d3e4 50919356 kernel optional linux-image-4.15.0-rc1-custom_4.15.0-rc1-custom-2_amd64.deb
+ f7666400b3175e848939f500e5fcaeea 969536 devel optional linux-libc-dev_4.15.0-rc1-custom-2_amd64.deb
